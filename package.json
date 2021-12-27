@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-study",
+  "version": "1.0.0",
+  "description": "Following an YouTube tutorial from \"The Net Ninja\": https://www.youtube.com/watch?v=bxmDnn7lrnk&list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgehua/tailwind-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgehua/tailwind-study/issues"
+  },
+  "homepage": "https://github.com/georgehua/tailwind-study#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
